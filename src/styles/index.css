@@ -1,0 +1,39 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+/* Estilos para telas de desktop (largura maior que 1024px) */
+@media (min-width: 1025px) {
+  body {
+    font-family: var(--font-primary);
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Estilos para tablets (largura entre 769px e 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-family: var(--font-primary);
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+/* Estilos para dispositivos móveis (largura até 768px) */
+@media (max-width: 768px) {
+  body {
+    font-family: var(--font-primary);
+    font-size: 1.6vw;
+    margin: 0;
+    padding: 0;
+  }
+}

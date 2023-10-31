@@ -7,12 +7,6 @@
   --font-color-primary: white;
 }
 
-body {
-  font-family: var(--font-primary);
-  font-size: 15px;
-  margin: 0;
-}
-
 header {
   background-color: var(--color-secondary);
   width: 100%;
@@ -22,8 +16,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 ul {
@@ -36,12 +30,12 @@ ul {
 }
 
 li {
-  padding: 6px;
+  padding: 8px;
 }
 
 a {
   color: var(--font-color-primary);
-  font-size: 1em;
+  font-size: 0.7em;
   text-decoration: none;
 }
 
@@ -56,19 +50,26 @@ a:hover {
 }
 
 #a-register:hover {
-  border: 1px solid var(--color-primary);
+  border: 2px solid var(--color-primary);
   color: var(--color-primary);
 }
 
 /* Estilos para telas de desktop (largura maior que 1024px) */
 @media (min-width: 1025px) {
-  /* Seu CSS para dispositivos móveis aqui */
+  a {
+    color: var(--font-color-primary);
+    font-size: 1vw;
+    text-decoration: none;
+  }
 }
 
 /* Estilos para tablets (largura entre 769px e 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* Seu CSS para dispositivos móveis aqui */
-  
+  a {
+    color: var(--font-color-primary);
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
 }
 
 /* Estilos para dispositivos móveis (largura até 768px) */

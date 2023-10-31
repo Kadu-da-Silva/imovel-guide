@@ -1,0 +1,81 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+main {
+  display: flex;
+}
+
+#agents-section {
+  display: flex;
+}
+
+#content-agents {
+  border: 1px solid var(--color-tertiary);
+  margin: 15px;
+  width: 400px;
+}
+
+.agent {
+  display: flex;
+  margin: 15px;
+}
+
+.agent .content-img {
+  border: 1.5px solid var(--color-secondary);
+  border-radius: 10px;
+  display: flex;
+  height: 200px;
+  width: 220px;
+  justify-content: center;
+}
+
+.content-img img {
+  height: 200px;
+  position: absolute;
+}
+
+.content-img .img-blur {
+  border-radius: 10px;
+  height: 200px;
+  width: 220px;
+  filter: blur(2px);
+  position: absolute;
+  z-index: 0;
+}
+
+.agent .content-info {
+  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.content-info .phone-toggle {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.content-info .phone {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Estilos para telas de desktop (largura maior que 1024px) */
+@media (min-width: 1025px) {
+  
+}
+
+/* Estilos para tablets (largura entre 769px e 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Estilos para dispositivos móveis (largura até 768px) */
+@media (max-width: 768px) {
+}
