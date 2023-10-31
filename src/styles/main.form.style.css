@@ -1,0 +1,80 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+.message-section {
+  display: flex;
+  margin: 35px;
+}
+
+.message-section .form {
+  border: 1px solid var(--color-tertiary);
+  border-radius: 3px;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: left;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-input-cpf {
+  display: none;
+  color: var(--color-primary);
+  position: absolute;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.span-input-phone {
+  display: none;
+  color: var(--color-primary);
+  position: absolute;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.form input {
+  padding: 10px;
+  margin-bottom: 25px;
+  width: 90%;
+}
+
+.form #subject {
+  height: 50px;
+}
+
+.form #subject::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+} 
+
+.form button {
+  position: absolute;
+  bottom: 15px;
+  padding: 5px;
+  font-size: 15px;
+  color: var(--font-color-primary);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s;
+
+}
+
+.form button:hover {
+  box-shadow: 0px 0px 5px var(--color-primary);
+  transition: 0.5s;
+  cursor: pointer;
+}

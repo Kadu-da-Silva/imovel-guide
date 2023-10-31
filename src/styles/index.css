@@ -15,6 +15,10 @@
     margin: 0;
     padding: 0;
   }
+
+  main {
+    display: flex;
+  }
 }
 
 /* Estilos para tablets (largura entre 769px e 1024px) */
@@ -26,6 +30,16 @@
     padding: 0;
   }
   
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; 
+  }
+
+  section {
+    display: flex;
+    margin: 35px;
+  }
 }
 
 /* Estilos para dispositivos móveis (largura até 768px) */
@@ -35,5 +49,9 @@
     font-size: 1.6vw;
     margin: 0;
     padding: 0;
+  }
+
+  main {
+    display: flex;
   }
 }
