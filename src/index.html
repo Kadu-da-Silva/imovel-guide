@@ -2,13 +2,15 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" contains="width=device-width, initial-scale=1.0">
   <title>Imovel Guide</title>
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./styles/header.style.css">
   <link rel="stylesheet" href="./styles/main.agents.style.css">
   <link rel="stylesheet" href="./styles/main.form.style.css">
-  <script type="module" src="./script.js"></script>
+  <link rel="stylesheet" href="./styles/main.rule-three.style.css">
+  <script type="module" src="./scripts/validForm.js"></script>
+  <script type="module" src="./scripts/functionRuleThree.js"></script>
 </head>
 <body>
   <header>
@@ -33,13 +35,13 @@
   <main>
     <section class="agents-section">
       <h2>1</h2>
-      <div class="content-agents">
+      <div class="contains-agents">
         <div class="agent">
-          <div class="content-img">
+          <div class="contains-img">
             <img src="./img/agent-1.png" alt="agent's picture" class="img-blur">
             <img src="./img/agent-1.png" alt="agent's picture">
           </div>
-          <div class="content-info">
+          <div class="contains-info">
             <h1 class="name-agent">Corretor 1</h1>
             <p class="points">3.000 pontos</p>
             <p class="phone-toggle">ver telefone</p>
@@ -47,11 +49,11 @@
           </div>
         </div>
         <div class="agent">
-          <div class="content-img">
+          <div class="contains-img">
             <img src="./img/agent-2.png" alt="agent's picture" class="img-blur">
             <img src="./img/agent-2.png" alt="agent's picture">
           </div>
-          <div class="content-info">
+          <div class="contains-info">
             <h1 class="name-agent">Corretor 2</h1>
             <p class="points">1.260 pontos</p>
             <p class="phone-toggle">ver telefone</p>
@@ -79,18 +81,20 @@
         <button class="btn-message">Enviar Mensagem</button>
       </div>
     </section>
-    <section id="rule-three-section">
+    <section class="rule-three-section">
       <h2>3</h2>
-      <div id="rule-three">
+      <div class="contains-rule-three">
         <h2>Regra de 3:</h2>
-        <label for="column-1">
-          <input type="text" id="column-1" name="number-1">
-          <input type="text" id="column-1" name="number-2">
-        </label>
-        <label for="column-2">
-          <input type="text" id="column-2" name="number-1">
-          <input type="text" id="column-2" name="number-2">
-        </label>
+        <div class="contains-columns">
+          <div class="column">
+            <input type="text" id="value-a" name="value-a">
+            <input type="text" id="value-b" name="value-b">
+          </div>
+          <div class="column">
+            <input type="text" id="value-x" name="value-x">
+            <input type="text" id="value-y" name="value-y">
+          </div>
+        </div>
         <button id="btn-clean">Limpar</button>
       </div>
     </section>

@@ -1,0 +1,58 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+.contains-rule-three {
+  border: 1px solid var(--color-tertiary);
+  border-radius: 3px;
+  margin: 15px;
+  padding: 10px;
+  width: auto;
+}
+
+.contains-rule-three .contains-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contains-columns .column {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.column input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 60px;
+  font-size: 16px;
+  color: var(--color-tertiary);
+}
+
+.column #value-y {
+  border: 2px solid var(--color-primary);
+  box-shadow: 0px 0px 3px var(--color-primary);
+}
+
+.contains-rule-three button {
+  padding: 5px;
+  font-size: 15px;
+  color: var(--font-color-primary);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.contains-rule-three button:hover {
+  box-shadow: 0px 0px 5px var(--color-primary);
+  transition: 0.5s;
+  cursor: pointer;
+}
