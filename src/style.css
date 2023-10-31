@@ -1,0 +1,77 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-secondary);
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+#menu-user {
+  margin-left: auto;
+}
+
+li {
+  padding: 6px;
+}
+
+a {
+  color: var(--font-color-primary);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+#a-register {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 8px;
+}
+
+#a-register:hover {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Estilos para telas de desktop (largura maior que 1024px) */
+@media (min-width: 1025px) {
+  /* Seu CSS para dispositivos móveis aqui */
+}
+
+/* Estilos para tablets (largura entre 769px e 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Seu CSS para dispositivos móveis aqui */
+  
+}
+
+/* Estilos para dispositivos móveis (largura até 768px) */
+@media (max-width: 768px) {
+  /* Seu CSS para dispositivos móveis aqui */
+}
