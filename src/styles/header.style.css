@@ -87,11 +87,12 @@ header {
   }
 
   #menu-mobile {
-    background-color: #1B2653;
-    color: white;
+    background-color: var(--color-secondary);
+    color: var(--font-color-primary);
+    border-radius: 8px;
     padding: 10px;
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 0;
   }
   
@@ -120,11 +121,12 @@ header {
   }
 
   #menu-mobile {
-    background-color: #1B2653;
-    color: white;
+    background-color: var(--color-secondary);
+    border-radius: 8px;
+    color: var(--font-color-primary);
     padding: 10px;
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 0;
   }
   

@@ -10,10 +10,13 @@
 .contains-rule-three {
   border: 1px solid var(--color-tertiary);
   border-radius: 3px;
-  margin: 15px;
+  margin-left: 10px;
   padding: 10px;
-  width: 35vw;
+  width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contains-rule-three .contains-columns {
@@ -50,6 +53,7 @@
   border: none;
   border-radius: 3px;
   transition: 0.5s;
+  width: 100px;
 }
 
 .contains-rule-three button:hover {
@@ -63,9 +67,9 @@
   .line-between-1 {
     border: 0;
     border-top: 1px solid #000;
-    width: 40px;
+    width: 20px;
     margin-top: 33px;
-    margin-left: 47%;
+    margin-left: 45%;
     transform: translate(-50%, -50%);
     position: absolute;
   }
@@ -73,9 +77,9 @@
   .line-between-2 {
     border: 0;
     border-top: 1px solid #000;
-    width: 40px;
+    width: 20px;
     margin-top: 83px;
-    margin-left: 47%;
+    margin-left: 45%;
     transform: translate(-50%, -50%);
     position: absolute;
   }

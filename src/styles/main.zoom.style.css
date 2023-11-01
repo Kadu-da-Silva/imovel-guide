@@ -8,15 +8,15 @@
 }
 
 .contains-img-3 {
-  margin: 15px;
-  padding: 10px;
+  margin-left: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .contains-img-3 .image-container {
   border-radius: 5px;
   width: 100%;
-  max-width: 300px;
+  max-width: 340px;
   overflow: hidden;
 }
 

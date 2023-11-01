@@ -8,10 +8,10 @@
 }
 
 .contains-img-1 {
-  margin: 15px;
-  padding: 10px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .contains-img-1 img {

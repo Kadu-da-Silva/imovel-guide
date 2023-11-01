@@ -45,7 +45,8 @@
 
   section {
     display: flex;
-    margin: 20px;
+    margin: 40px;
+    width: 350px;
   }
 }
 

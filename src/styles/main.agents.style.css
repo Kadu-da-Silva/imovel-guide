@@ -22,21 +22,24 @@
 .agent .contains-img {
   display: flex;
   height: 17vw;
+  max-height: 180px;
+  margin: 10px;
   width: 180px;
   justify-content: center;
 }
 
 .contains-img img {
   height: 17vw;
-  max-height: 200px;
+  max-height: 180px;
   position: absolute;
 }
 
 .contains-img .img-blur {
   border-radius: 10px;
   height: 17vw;
+  max-height: 180px;
   width: 17vw;
-  max-width: 220px;
+  max-width: 200px;
   filter: blur(2px);
   position: absolute;
   z-index: 0;

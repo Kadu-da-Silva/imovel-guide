@@ -10,13 +10,12 @@
 .message-section .form {
   border: 1px solid var(--color-tertiary);
   border-radius: 3px;
-  margin: 15px;
+  margin-left: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  position: relative;
   justify-content: left;
-  width: 35vw;
+  width: 100%;
 }
 
 .form label {
