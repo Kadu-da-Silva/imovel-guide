@@ -6,11 +6,11 @@ Projeto desenvolvido utilizando HTML, CSS e JAVASCRIPT.
 * Responsividade;
 * Aplicação de máscaras.
 
-Tela Mobile: 📱
+### Tela Mobile: 📱
 ![vídeo 1 - tela mobile](midia/celular.gif)
 
-Tela Tablet: 
+### Tela Tablet: 
 ![vídeo 2 - tela tablet](midia/tablet.gif)
 
-Tela Desktop: 🖥️
+### Tela Desktop: 🖥️
 ![vídeo 3 - tela desktop](midia/desktop.gif)
