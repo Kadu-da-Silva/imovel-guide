@@ -12,35 +12,27 @@ header {
   width: 100%;
 }
 
-nav {
+.top-nav {
   display: flex;
+  height: 100px;
   justify-content: space-between;
   align-items: center;
   padding-left: 4vw;
   padding-right: 4vw;
+  overflow: hidden;
 }
 
-ul {
-  display: flex;
-  list-style: none;
+.top-nav .menu-icon {
+  cursor: pointer;
 }
 
-#menu-user {
-  margin-left: auto;
+.menu-icon img {
+  height: 30px;
+  margin: 30px;
 }
 
-li {
-  padding: 8px;
-}
-
-a {
-  color: var(--font-color-primary);
-  font-size: 0.7em;
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--color-primary);
+.top-nav .hidden {
+  display: none;
 }
 
 #a-register {
@@ -54,25 +46,93 @@ a:hover {
   color: var(--color-primary);
 }
 
+
 /* Estilos para telas de desktop (largura maior que 1024px) */
 @media (min-width: 1025px) {
-  a {
+  .menu-desktop {
+    margin-left: auto;
+    display: flex;
+  }
+
+  .menu-desktop a {
     color: var(--font-color-primary);
-    font-size: 1vw;
+    font-size: 16px;
     text-decoration: none;
+    padding: 8px;
+  }
+
+  .menu-desktop a:hover {
+    color: var(--color-primary);
+  }
+  
+
+  .menu-icon {
+    display: none;
   }
 }
 
 /* Estilos para tablets (largura entre 769px e 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  a {
-    color: var(--font-color-primary);
-    font-size: 1.5vw;
+  .menu-desktop {
+    display: none;
+  }
+  
+  .menu-mobile {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  #menu-mobile {
+    background-color: #1B2653;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+  }
+  
+  #menu-mobile a {
+    display: block;
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
+    color: var(--color-primary);
   }
 }
 
 /* Estilos para dispositivos móveis (largura até 768px) */
 @media (max-width: 768px) {
-  /* Seu CSS para dispositivos móveis aqui */
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  #menu-mobile {
+    background-color: #1B2653;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+  }
+  
+  #menu-mobile a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-primary);
+  }
 }

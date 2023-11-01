@@ -5,7 +5,7 @@ const closeButton = document.getElementById('close');
 
 openButton.addEventListener('click', () => {
   modal.style.display = 'block';
-  modalImage.src = './img/img-1.png'; // Atualize com o caminho da imagem
+  modalImage.src = './img/img-1.png';
 });
 
 closeButton.addEventListener('click', () => {

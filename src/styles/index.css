@@ -18,6 +18,13 @@
 
   main {
     display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; 
+  }
+
+  section {
+    display: flex;
+    margin: 35px;
   }
 }
 
@@ -38,7 +45,7 @@
 
   section {
     display: flex;
-    margin: 35px;
+    margin: 20px;
   }
 }
 
@@ -53,5 +60,13 @@
 
   main {
     display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; 
+  }
+
+  section {
+    display: flex;
+    margin: 15px;
+    width: 400px;
   }
 }

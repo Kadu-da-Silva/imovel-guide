@@ -11,14 +11,38 @@
   <link rel="stylesheet" href="./styles/main.rule-three.style.css">
   <link rel="stylesheet" href="./styles/main.modal.style.css">
   <link rel="stylesheet" href="./styles/main.canvas.style.css">
+  <link rel="stylesheet" href="./styles/main.zoom.style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="module" src="./scripts/validForm.js"></script>
   <script type="module" src="./scripts/functionRuleThree.js"></script>
   <script type="module" src="./scripts/functionModal.js"></script>
   <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   <script type="module" src="./scripts/functionCaptureCanva.js"></script>
+  <script type="module" src="./scripts/functionMenu.js"></script>
 </head>
 <body>
   <header>
+    <div class="top-nav">
+      <a href="#home" class="active">Logo</a>
+      <div id="menu" class="menu-desktop">
+        <a href="#quote_property">Cotar Imóvel</a>
+        <a href="#plans">Planos</a>
+        <a href="#login">Entrar</a>
+        <a href="#register"  id="a-register">CADASTRE-SE</a>
+      </div>
+      <div class="menu-icon" id="menu-toggle">
+        <img src="./img/icone-3-attr (2).png" alt="">
+      </div>
+      <div id="menu-mobile" class="hidden">
+        <a href="#quote_property">Cotar Imóvel</a>
+        <a href="#plans">Planos</a>
+        <a href="#login">Entrar</a>
+        <a href="#register"  id="a-register">CADASTRE-SE</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- ><header>
     <nav id="nav-pages">
       <img src="" alt="logo">
       <ul id="menu">
@@ -36,7 +60,7 @@
         <li><a href="/register"  id="a-register">CADASTRE-SE</a></li>
       </ul>
     </nav>
-  </header>
+  </header> -->
   <main>
     <section class="agents-section">
       <h2>1</h2>
@@ -95,6 +119,8 @@
             <input type="text" id="value-a" name="value-a">
             <input type="text" id="value-b" name="value-b">
           </div>
+          <hr class="line-between-1">
+          <hr class="line-between-2">
           <div class="column">
             <input type="text" id="value-x" name="value-x">
             <input type="text" id="value-y" name="value-y">
@@ -114,16 +140,18 @@
       <h2>5</h2>
       <div class="contains-img-2">
         <div id="capture">
-          <img src="./img/img-2.png" alt="picture">
+          <img src="./img/img-1.png" alt="picture">
           <div id="rectangle"><span>Imovel Guide</span></div>
         </div>
         <button id="btn-download">Download</button>
       </div>
     </section>
-    <section id="img-3-box">
+    <section class="img-3-section">
       <h2>6</h2>
-      <div id="img-3">
-        <img src="" alt="picture">
+      <div class="contains-img-3">
+        <div class="image-container">
+          <img src="./img/img-1.png" alt="picture" id="zoom-image">
+        </div>
       </div>
     </section>
   </main>

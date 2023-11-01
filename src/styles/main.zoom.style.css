@@ -1,0 +1,36 @@
+:root {
+  --background: white;
+  --color-primary: #FE6613;
+  --color-secondary: #1B2653;
+  --color-tertiary: #787878;
+  --font-primary: 'Roboto', Arial, sans-serif;
+  --font-color-primary: white;
+}
+
+.contains-img-3 {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contains-img-3 .image-container {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.contains-img-3 #zoom-image {
+  width: 100%;
+  animation: zoomEffect 5s infinite alternate; /* Define a animação */
+  transform-origin: center;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(1); /* Sem zoom */
+  }
+  100% {
+    transform: scale(1.2); /* Zoom 1.2x */
+  }
+}

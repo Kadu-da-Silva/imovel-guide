@@ -10,31 +10,33 @@
 .agents-section .contains-agents {
   border: 1px solid var(--color-tertiary);
   border-radius: 3px;
-  margin: 15px;
+  margin-left: 10px;
+  width: 100%;
 }
 
 .contains-agents .agent {
   display: flex;
   margin: 10px;
-  width: 350px;
 }
 
 .agent .contains-img {
   display: flex;
-  height: 150px;
+  height: 17vw;
   width: 180px;
   justify-content: center;
 }
 
 .contains-img img {
-  height: 150px;
+  height: 17vw;
+  max-height: 200px;
   position: absolute;
 }
 
 .contains-img .img-blur {
   border-radius: 10px;
-  height: 150px;
-  width: 180px;
+  height: 17vw;
+  width: 17vw;
+  max-width: 220px;
   filter: blur(2px);
   position: absolute;
   z-index: 0;
