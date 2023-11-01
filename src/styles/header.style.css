@@ -22,6 +22,10 @@ header {
   overflow: hidden;
 }
 
+.top-nav img {
+  height: 40px;
+}
+
 .top-nav .menu-icon {
   cursor: pointer;
 }
