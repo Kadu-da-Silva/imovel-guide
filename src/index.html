@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="./styles/main.agents.style.css">
   <link rel="stylesheet" href="./styles/main.form.style.css">
   <link rel="stylesheet" href="./styles/main.rule-three.style.css">
+  <link rel="stylesheet" href="./styles/main.modal.style.css">
   <script type="module" src="./scripts/validForm.js"></script>
   <script type="module" src="./scripts/functionRuleThree.js"></script>
+  <script type="module" src="./scripts/functionModal.js"></script>
 </head>
 <body>
   <header>
@@ -98,10 +100,10 @@
         <button id="btn-clean">Limpar</button>
       </div>
     </section>
-    <section id="img-1-box">
+    <section class="img-1-section">
       <h2>4</h2>
-      <div id="img-1">
-        <img src="" alt="picture">
+      <div class="contains-img-1">
+        <img src="./img/img-1.png" alt="picture">
         <button id="btn-modal">ABRIR IMAGEM NO MODAL</button>
       </div>
     </section>
@@ -126,5 +128,12 @@
     <p>Sobre</p>
     <p>By Kadu 2023. Todos os direitos reservados.</p>
   </footer>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="close">&times;</span>
+      <hr>
+      <img id="modal-image" src="./img/img-1.png" alt="Imagem em modal">
+    </div>
+  </div>  
 </body>
 </html>
