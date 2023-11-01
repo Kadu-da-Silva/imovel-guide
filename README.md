@@ -1,6 +1,7 @@
 # Teste Frontend Imovel Guide
 
 Projeto desenvolvido utilizando HTML, CSS e JAVASCRIPT.
+Para reproduzir o código em sua máquina basta clonar este repositório, e iniciar o arquivo html com o Live Share. Ou um framework de sua preferência.
 
 ## Habilidade desenvolvidas:
 * Responsividade;
